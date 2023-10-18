@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/databakehub/twelvedata/response"
 	"github.com/fasthttp/websocket"
 	"github.com/rs/zerolog"
-	"github.com/soulgarden/twelvedata/response"
 )
 
 // nolint: gocognit

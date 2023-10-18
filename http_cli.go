@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/databakehub/twelvedata/dictionary"
 	"github.com/rs/zerolog"
-	"github.com/soulgarden/twelvedata/dictionary"
 	"github.com/valyala/fasthttp"
 )
 

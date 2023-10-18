@@ -1,7 +1,7 @@
 # Twelve data go api client
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/soulgarden/twelvedata)](https://goreportcard.com/report/github.com/soulgarden/twelvedata)
-![Tests and linters](https://github.com/soulgarden/twelvedata/actions/workflows/main.yml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/databakehub/twelvedata)](https://goreportcard.com/report/github.com/databakehub/twelvedata)
+![Tests and linters](https://github.com/databakehub/twelvedata/actions/workflows/main.yml/badge.svg)
 
 
 # Covered:
@@ -69,7 +69,7 @@
         "fmt"
         "github.com/jinzhu/configor"
         "github.com/rs/zerolog"
-        "github.com/soulgarden/twelvedata"
+        "github.com/databakehub/twelvedata"
         "github.com/valyala/fasthttp"
         "os"
     )
@@ -103,7 +103,7 @@
         "fmt"
         "github.com/jinzhu/configor"
         "github.com/rs/zerolog"
-        "github.com/soulgarden/twelvedata"
+        "github.com/databakehub/twelvedata"
         "os"
     )
 

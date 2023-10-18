@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/databakehub/twelvedata/dictionary"
+	"github.com/databakehub/twelvedata/response"
 	"github.com/fasthttp/websocket"
 	"github.com/rs/zerolog"
-	"github.com/soulgarden/twelvedata/dictionary"
-	"github.com/soulgarden/twelvedata/response"
 )
 
 type WS struct {

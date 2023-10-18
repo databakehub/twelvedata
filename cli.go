@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/databakehub/twelvedata/dictionary"
+	"github.com/databakehub/twelvedata/response"
 	"github.com/rs/zerolog"
-	"github.com/soulgarden/twelvedata/dictionary"
-	"github.com/soulgarden/twelvedata/response"
 	"github.com/valyala/fasthttp"
 )
 
