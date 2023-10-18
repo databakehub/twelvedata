@@ -80,7 +80,7 @@ func (ws *WS) read(conn *websocket.Conn, done chan<- struct{}) {
 
 		ws.logger.Err(err).Bytes("message", message).Msg("read message")
 
-		if err != nil {
+		if err != nil || len(message) == 0 {
 			return
 		}
 
