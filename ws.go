@@ -81,7 +81,7 @@ func (ws *WS) read(conn *websocket.Conn, done chan<- struct{}) {
 		ws.logger.Err(err).Bytes("message", message).Msg("read message")
 
 		if err != nil || len(message) == 0 {
-			return
+			break
 		}
 
 		event := &response.PriceEvent{}
@@ -96,6 +96,7 @@ func (ws *WS) read(conn *websocket.Conn, done chan<- struct{}) {
 			ws.eventsCh <- event
 		}
 	}
+	close(ws.eventsCh)
 }
 
 func (ws *WS) ping(ctx context.Context, conn *websocket.Conn, done <-chan struct{}) error {
